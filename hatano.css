@@ -1,0 +1,35 @@
+body{
+background: lime;
+}
+
+h1{
+color: blue;
+font-size: 50px;
+}
+
+p{
+light light: 12px;
+font-size: 20px
+}
+
+#anime_test{
+    height: 400px;
+    width: 400px;
+    background-image: url(yjsnpi.img);
+    position: relative;
+    left: 0;
+    transition: 2.5s;
+}
+#anime_test.active {
+    background-color: #2196F3;
+    left: calc(100% - 100px);
+}
+
+.anime_test-btn {
+    margin-top:  10px;
+    display:  inline-block;
+    padding:  5px 10px;
+    border: solid 1px;
+    cursor:  pointer;
+}
+~                  
