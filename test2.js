@@ -5,6 +5,4 @@ function clickTest() {
       } else {
         target.className = "";
       }
-    }
-
-~                
+    }             
